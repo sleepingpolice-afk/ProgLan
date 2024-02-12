@@ -1,0 +1,111 @@
+.ap {
+	color: red;
+    font-family: calibri;
+    text-align: center;
+    background-color: blue;
+    font-size: 50px;
+}
+
+.small {
+	color: white;
+    text-align: right;
+    font size: 13px;
+}
+
+
+button{
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    padding: 10px 29px;
+    text-align: center;
+    font-family: calibri;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
+    font-style:italic;
+}
+
+.buttontemplate {
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    padding: 10px 29px;
+    text-align: center;
+    font-family: calibri;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
+    font-style:italic;
+}
+
+
+button:hover {
+    background-color: yellow;
+    cursor:pointer;
+}
+
+.buttontemplate:hover {
+    background-color: yellow;
+    cursor:pointer;
+    color:black;
+}
+
+.floating{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(70, 8, 8);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+}
+.embed{
+    position: absolute;
+    color: rgb(224, 87, 87);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    left: 45%;
+    top: 0%
+}
+
+.containerbg{
+    background-image: url(assets/yoshibg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.containerbody{
+    height: 750%;
+    width: 75%;
+    background-color: teal;
+    margin: 7.5% auto;
+}
+
+h3::selection, p::selection, span::selection, .ap::selection, h1::selection, button::selection, a::selection, iframe::selection, img::selection{
+    color: black;
+    background-color: pink;
+}
+
+#videolink{
+    color:black;
+}
+
+#videolink:hover{
+    background-color:blue;
+    color: white;
+    font-size: 20px;
+}
+
+#videolink:visited{
+    color:white;
+}
+
+#videolink:active{
+    color:red;
+}

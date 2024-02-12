@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Another Test Website" content="Another Test Website">
+
+    <style>
+        .bagus {
+            font-family: georgia;
+            font-size: 20px;
+            color:black;
+            padding: 10px 10px;
+        }
+        .alternate {
+            font-family: georgia;
+            font-size:20px;
+            color:black;
+            padding: 10px 10px;
+            background-color: rgb(97, 79, 79);
+        }
+        .alternate:hover{
+            background-color: rgb(134, 111, 111)
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="index.html" method="post">
+        <table>
+            <tr>
+            <td><label class="bagus" for="username">Username</label></td>
+            <td>:  <input type="text" class="bagus" id="username" size="50px" name="username" placeholder="Input your username here..." minlength="5" maxlength="50" required></bt></td>
+            </tr>
+            <tr>
+            <td><label class="bagus" for="password">Password</label></td>
+            <td>:  <input type="password" class="bagus" id="password" size="50px" name="password" placeholder="Input your password here..." minlength="8" maxlength="20" required></td>
+            </tr>
+            <tr>
+                <td><label class="bagus" for="email">E-Mail</label></td>
+                <td>: <input type="email" class="bagus" id="email" size="20px" name="email" required placeholder="What is your email?" minlength="13" maxlength="25"> </td>
+            </tr>
+        </table>
+        <br>
+            <input class="buttontemplate" type="submit" value="Save!">
+            <input class="buttontemplate" type="reset" value="Reset!">
+        </form>
+    </div>
+    <br><br>
+    <div>
+        <a href="index.html">
+        <button class="alternate" alt="Back to main menu" title="Back to menu">Back to main website</button>
+        </a>
+    </div>
+</body>
+</html>
